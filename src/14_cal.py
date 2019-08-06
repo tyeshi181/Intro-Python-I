@@ -23,3 +23,7 @@ import sys
 import calendar
 from datetime import datetime
 from datetime import date
+
+
+a, b = map(int, raw_input().split())
+print(f">>>>> {a} {b}")
